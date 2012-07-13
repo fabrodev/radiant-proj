@@ -1,3 +1,20 @@
+demarer :
+#install radiant
+>gem install radiant 
+
+#create new radiant project
+>radiant project-name
+>cd project-name
+>bundle install
+>bundle  exec rake db:bootstrap # permet de choisir des db deja ou pas pre-rempli
+
+
+#start your new radiant app
+>bundle exec script/server
+
+
+
+
 ## Welcome to Radiant
 
 Radiant is a no-fluff, open source content management system designed for
