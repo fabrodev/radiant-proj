@@ -1,0 +1,3 @@
+[submodule "vendor/extensions/help"]
+	path = vendor/extensions/help
+	url = git://github.com/saturnflyer/radiant-help-extension.git
